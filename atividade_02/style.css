@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+main {
+    background-color: rgb(221, 220, 220);
+    width: 100vw;
+    height: 100vh;
+}
+
+div {
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+}
+
+.div01 {
+    left: 0;
+    top: 0;
+}
+
+.div02 {
+    left: 0;
+    bottom: 0;
+}
+
+.div03 {
+    right: 0;
+    top: 0;
+}
+
+.div04 {
+    right: 0;
+    bottom: 0;
+}

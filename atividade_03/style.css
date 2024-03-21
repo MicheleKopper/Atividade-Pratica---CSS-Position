@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #cccccc;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.div-texto-radius {
+    width: 95%;
+    height: 40%;
+    background-color: rgb(29, 29, 29);
+    border-radius: 50px;
+    position: absolute;
+    left: calc(50% - 47.5%);
+    top: calc(25% - 20%);
+}
+
+.texto01 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-align: right;
+    padding: 25px;
+    font-size: 30px;
+
+}
+
+.div-texto-scrol {
+    width: 95%;
+    height: 40%;
+    background-color: rgb(29, 29, 29);
+    border: solid 3px red;
+    position: absolute;
+    left: calc(50% - 47.5%);
+    top: calc(75% - 20%);
+    overflow-y: scroll;
+}
+
+.texto02 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+    padding: 25px;
+    font-size: 30px;
+}
